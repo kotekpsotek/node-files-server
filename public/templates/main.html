@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="kotekpsotek https://github.com/kotekpsotek">
+        <meta name="description", content="page where user can upload his files to http server">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page where you can upload your files</title>
+    </head>
+
+    <body>
+        <form action="/file_upload" method="POST" enctype="multipart/form-data" target="_self">
+            <label>Choose file/files to upload</label>
+            <input type="file" name="file_input" multiple>
+            <input type="submit" value="Upload">
+        </form>
+    </body>
+</html>
